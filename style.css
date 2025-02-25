@@ -314,7 +314,7 @@ footer{
 @media screen and (max-width: 768px){
     /* Header */
     nav ul{
-        position: relative;
+        position: absolute;
         top: 70px;
         left: 0;
         background: #333;
@@ -331,9 +331,15 @@ footer{
         margin-bottom: 10px;
     }
 
+
     .menu{
-        margin-left: 0px;
+        margin-left: 0px;    
     }
+
+    /* #MenuItems{
+        display: flex;
+       flex-direction: column;
+    } */
 
     .menu-icon{
         display: block;
