@@ -73,7 +73,7 @@ nav{
 @media screen and (max-width: 768px){
     /* Header */
     nav ul{
-        position: relative;
+        position: absolute;
         top: 70px;
         left: 0;
         background: #333;
